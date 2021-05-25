@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "../components/Header"
 import LoginForm from '../components/LoginForm';
 
-//holds the home route, which takes the header, addrestaurant, and list components (delete and update are within list).
+//holds the login route, which takes the header and login components.
 const login = () => {
     return (
         <div>

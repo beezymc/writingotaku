@@ -6,7 +6,7 @@ const BlogPost = () => {
     const {addBlog} = useContext(BlogContext);
     const [title, setTitle] = useState("");
     const [blogText, setBlogText] = useState("");
-    //posts new restaurant to the postgres server
+    //posts new blog post to the postgres server
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {

@@ -5,7 +5,15 @@ export default function home() {
   return (
     <div>
         <Header />
-        Go to /Register or /Login
+        <div>
+          <a href="/viewboard">Viewboard</a>
+        </div>
+        <div>
+          <a href="/login">Login</a>
+        </div>
+        <div>
+          <a href="/register">Register</a>
+        </div>
     </div>
   );
 }

@@ -8,7 +8,7 @@ const UserView = (props) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                //adds '/' to the end of the url in the RestaurantFinder api
+                //adds '/' to the end of the url in the api
                 const response = await ViewBoard.get(`/${props.username.username}`);
                 setBlogs(response.data.data.blogs);
             } catch(err) {
